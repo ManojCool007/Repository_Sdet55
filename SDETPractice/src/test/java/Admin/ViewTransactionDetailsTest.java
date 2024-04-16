@@ -21,6 +21,9 @@ import com.inventory.sales.objectrepository.UserLogout;
 
 public class ViewTransactionDetailsTest extends BaseClass{
 
+	private static final String Admin_UN = "Unguardable";
+	private static final String Admin_PWD = "admin";
+
 	@Test
 	public void script() throws IOException, InterruptedException
 	{
